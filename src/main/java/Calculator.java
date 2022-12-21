@@ -16,6 +16,8 @@ public class Calculator {
     }
 
     public int solver(int a, int b) {
-        return div(add(a, b), dif(a, b));
+
+        return times(add(a, b), dif(a, b));
+
     }
 }
